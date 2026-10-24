@@ -1,0 +1,17 @@
+:root{--bleu:#1b2550;--accent:#2f6fdb;--fond:#f5f7fb;--texte:#1f2933;--doux:#5b6675}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 "Segoe UI",system-ui,Arial,sans-serif;color:var(--texte);background:var(--fond)}
+header{background:var(--bleu);color:#fff;padding:18px 16px}
+header .bloc{max-width:860px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header a{color:#fff;text-decoration:none;font-weight:600}
+header nav a{margin-left:16px;font-weight:400;opacity:.9}
+main{max-width:860px;margin:28px auto;padding:0 16px}
+.carte{background:#fff;border:1px solid #dfe3ea;border-radius:12px;padding:24px;margin-bottom:20px}
+h1{color:var(--bleu);margin-top:0}
+h2{color:var(--bleu);font-size:1.2rem;margin-top:1.6em}
+.grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.grille div{background:var(--fond);border-radius:10px;padding:14px}
+.grille b{color:var(--bleu)}
+.maj{color:var(--doux);font-size:.9rem}
+footer{text-align:center;color:var(--doux);font-size:.9rem;padding:24px 16px}
+a{color:var(--accent)}
